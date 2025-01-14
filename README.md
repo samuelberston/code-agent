@@ -30,25 +30,7 @@ The system leverages Large Language Models for intelligent security analysis:
 - **Interactive Analysis**: Multi-step reasoning about potential vulnerabilities
 - **Automated Mitigation**: AI-generated security recommendations
 
-### 3. Security Analysis Components
-
-The analysis is performed by specialized components:
-```
-SecurityAgent
-├── agents/
-│   ├── security_llm_agent.py
-│   ├── tools.py
-│   ├── prompts.py
-│   └── vector_store.py
-├── analyzers/
-│   ├── call_graph_analyzer.py
-│   ├── data_flow_analyzer.py
-│   ├── config_analyzer.py
-│   └── dependency_analyzer.py
-└── ...
-```
-
-### 4. Analysis Process
+### 3. Analysis Process
 
 1. **Code Parsing & Embedding**: Convert source code into embeddings for semantic search
 2. **Multi-layer Analysis**: 
